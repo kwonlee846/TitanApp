@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/login"
+  to = "http://54.158.71.182:8080/login"
+  status = 200
+  force = true
