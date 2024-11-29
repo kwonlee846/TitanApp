@@ -78,7 +78,7 @@ export const SoundGauge = ({ dbLevel, setDbLevel }: SoundGaugeProps) => {
       if (microphone) microphone.disconnect();
       if (audioContext) audioContext.close();
     };
-  }, []);
+  }, [setDbLevel]);
 
   const graphData = {
     labels: dbHistory.map((_, index) => index + 1),
